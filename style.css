@@ -1,0 +1,156 @@
+*{padding: 0; margin:0; box-sizing: border-box;}
+html{ scroll-behavior: smooth; }
+
+header{
+	width: 100%;
+	min-height: 100vh;
+	font-family: sans-serif;
+}
+.nav1{
+	width: 100%;
+	height: 30px;
+	background: black;
+	color: white;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 70px;
+	flex-wrap: wrap;
+}
+.nav1 a{
+	text-decoration: none;
+	color: white;
+	padding: 10px 20px;
+	border-right: 1px solid white;
+}
+.nav2{
+	width: 100%;
+	height: 130px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 70px;
+}
+.logo{
+	font-size: 3em;
+	font-weight: bold;
+	letter-spacing: 2px;
+}
+.logo span{
+	color: #3498db;
+}
+.icons i{
+	font-size: 20px;
+	padding: 10px;
+	margin: 0 15px;
+	border:1px solid grey;
+	border-radius: 8px;
+	cursor: pointer;
+	transition: 0.4s;
+}
+.icons i:hover{
+	background: #3498db;
+	color: white;
+}
+.nav3{
+	width: 90%;
+	height: 50px;
+	background: rgba(0,0,0,0.1);
+	display: flex;
+	justify-content: space-between;align-items: center;
+	padding: 0 50px;
+	margin:auto;
+}
+.nav3 a{
+	text-decoration: none;
+	color: black;
+	padding: 10px 20px;
+	transition: 0.4s;
+}
+.nav3 a:first-child{
+	background: #3498db;
+	color: white;
+}
+.nav3 a:hover{
+	background: #3498db;
+	color: white;
+}
+#featured{
+	width: 100%;
+	height: 100%;
+	font-family: 'Poppins', sans-serif;
+}
+.f-container{
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	align-items: flex-start;
+}
+.f-left{
+	flex-basis: 40%;
+	position: relative;
+}
+.f-right{
+	flex-basis: 40%;
+}
+.f-right img{
+	width:60%;
+}
+.f-left img{
+	width: 100%;
+}
+.f-left .text{
+	position: absolute;
+	top:30px;
+	right: 30px;
+}
+.text p{
+	color:#3498db;
+	font-size: 25px;
+	margin-bottom: 5px;
+}
+.shoes{
+	position: relative;
+	
+}
+.shoes .text{
+	position: absolute;
+	right: 30px;
+	top:30px;
+}
+.fr-container{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	text-align: center;
+}
+.fr-container #kuchbhi{
+	position: relative;
+}
+#kuchbhi .text{
+	position: absolute;
+	top:0;
+	right: 30px;
+}
+
+#kuchbhi img{
+	width:100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
