@@ -118,6 +118,7 @@ header{
 }
 .shoes{
 	position: relative;
+	margin:2rem;
 	
 }
 .shoes img{
@@ -332,12 +333,19 @@ display:none;
 		width: 100%;
 			display: flex;
 			flex-direction: column;
-		 justify-content: space-around;
-			align-items: flex-start; 
+		 
 	}
-	/* .f-container img{
-		width:80%;
-	} */
+ 	 .f-container img{
+		width:20rem;
+/* 		 padding-right:4rem; */
+		 margin:2rem;
+	}  
+	#kuchbhi{
+		display:none;
+	}
+	.shoes img{
+	position: relative;
+	margin:1rem;
 
 .fr-container{
 	display: flex;
@@ -351,13 +359,7 @@ display:none;
 	}
 }
 
-@media screen and(max-width:400px)
-{
-	.f-container img{
-		width:25rem;
-	}
 
-}
 
 
 
